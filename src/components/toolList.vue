@@ -120,7 +120,7 @@ export default {
 .list-container {
   position: absolute;
   left: 20px;
-  bottom: 50px;
+  top: 20px;
   background: white;
   border: 1px solid gainsboro;
   border-radius: 6px;

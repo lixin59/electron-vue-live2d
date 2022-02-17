@@ -159,8 +159,8 @@ export default {
   overflow: hidden;
   -webkit-app-region: no-drag;
   text-align: center;
-  left: 20px;
-  bottom: 50px;
+  left: 70px;
+  top: 20px;
   transition: opacity 0.5s;
 }
 .hightLight {

@@ -140,7 +140,7 @@ export default {
       let data = fs.readFileSync(configPath);
       data = JSON.parse(data);
 
-      // 初始化配置 
+      // 初始化配置
       store.commit("setLive2d", data.live2d);
       store.commit("setMsg", data.message);
       store.commit("setConfig", data.config);
@@ -173,11 +173,11 @@ export default {
 
 <style scoped>
 .cfg-list-container {
+  position: absolute;
+  left: 70px;
+  top: 20px;
   width: 300px;
   padding: 20px 20px;
-  position: absolute;
-  left: 20px;
-  bottom: 50px;
   background: white;
   border: 1px solid gainsboro;
   border-radius: 6px;
