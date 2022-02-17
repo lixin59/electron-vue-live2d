@@ -1,7 +1,7 @@
 <template>
   <div class="live2d-container">
-    <div v-show="type == 'moc'" id="moc-ctn"></div>
-    <div v-show="type == 'moc3'" id="moc3"></div>
+    <div class="live2d-container-module" v-show="type == 'moc'" id="moc-ctn"></div>
+    <div class="live2d-container-module" v-show="type == 'moc3'" id="moc3"></div>
   </div>
 </template>
 
@@ -34,5 +34,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.live2d-container-module{
+  cursor: pointer;
+  -webkit-app-region: drag;
 }
 </style>
